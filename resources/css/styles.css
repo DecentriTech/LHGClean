@@ -70,7 +70,7 @@ a:hover {
 
 .title2 {
 	font-weight: 900;
-	font-size: 48px;
+	font-size: 38px;
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0px;
@@ -110,19 +110,28 @@ a:hover {
 }
 
 #services {
-    display: flex;
+	display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 40px;
+}
+
+#servicesbottom {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .services {
     display: flex;
+    width: 400px;
+    height: 140px;
     padding: 40px;
-    margin: 0px 10px 10px 0px;
+    margin: 10px;
     border-radius: 10px;
     background-color: #F2F2F2;
     flex-direction: column;
+    justify-content: center;
 }
 
 /* Button */ 
@@ -260,4 +269,67 @@ a:hover.txtstyle {
     margin-left: 10px;
     padding: 2.5% 2%;
     text-align: center;
+}
+
+/* Mobile */ 
+
+@media screen and (max-width: 750px) {
+
+.title {
+    font-weight: 900;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+.title2 {
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+#service {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10% 0% 10%;
+    flex-direction: column;
+}
+
+.services {
+    display: flex;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    flex-direction: column;
+}
+
+.phone {
+	white-space: nowrap;
+}
+
+#finglets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+#toes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0% 10% 0px 10%;
+}
+
+.compimg {
+	display: none;
 }

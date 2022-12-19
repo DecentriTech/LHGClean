@@ -1,0 +1,263 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #F2F2F2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1c1c1c;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8B63FF;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	background-color: #ffffff;
+	font-family: sarabun;
+	color: #1c1c1c;
+}
+
+a {
+	color: #1c1c1c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1c1c1c;
+	text-decoration: bold;
+}
+
+.header {
+	display: flex;
+	height: 100px;
+	flex-direction: row;
+	align-items: center;
+    margin: 0% 10% 0% 10%;
+}
+
+#headerbg {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 5% 10% 0% 10%;
+}
+
+.headercontent {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 48px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.title2 {
+	font-weight: 900;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+}
+
+.compimg {
+	width: 30%;
+}
+
+.hdimg {
+	width: 30%;
+}
+
+#discountbg {
+    display: flex;
+    background-color: #8B63FF;
+    margin: 5% 0% 5% 0%;
+    justify-content: center;
+    align-items: flex-end;
+    color: #ffffff;
+    padding: 2%;
+}
+
+.discountcontent {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+#service {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 5% 10% 0% 10%;
+    flex-direction: column;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.services {
+    display: flex;
+    padding: 40px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    flex-direction: column;
+}
+
+/* Button */ 
+
+.intxt3 {
+	color: #8B63FF;
+	background-color: #1c1c1c1a;
+	border-radius: 10px;
+	padding: 10px 30px;
+	margin: 3% 0% 0% 0%;
+	width: max-content;
+	font-weight: 600;
+	transition: 0.2s;
+}
+
+.intxt3:hover {
+	color: #FFFFFF;
+	border-radius: 10px;
+	padding: 10px 30px;
+	margin: 3% 0% 0% 0%;
+	width: max-content;
+	font-weight: 600;
+	background-color: #8B63FF;
+	transition: 0.2s;
+}
+
+
+/* Footer */
+
+.dtechbottom {
+	display: flex;
+	align-items: center;
+}
+
+.dtechbottomtxt {
+	margin-left: 5%;
+}
+
+.centertext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+
+.centertext2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.seperate {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+#finglets {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.bg2 {
+    background-color: #1c1c1c;
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+}
+
+.imgscale {
+    width: 35px;
+    margin-right: 15px;
+}
+
+.txtstyle {
+    font-family: sarabun;
+    color: #ffffff;
+    margin: 5px;
+}
+
+.hiring {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+a.txtstyle {
+	font-size: 18px;
+    display: flex;
+    font-family: sarabun;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+    height: 23px;
+}
+
+a:hover.txtstyle {
+	font-size: 18px;
+    font-family: sarabun;
+    color: #ffffff;
+    text-decoration: none;
+    color: #8B63FF;
+}
+
+#toes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0% 10% 0px 10%;
+}
+
+#toes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1.5% 10% 0px 10%;
+}
+
+.hs {
+    font-size: 15px;
+    font-weight: bold;
+    color: #8B63FF;
+    width: 100px;
+    background-color: #232323;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 2.5% 2%;
+    text-align: center;
+}
